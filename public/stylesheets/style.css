@@ -10,3 +10,13 @@ a {
 li {
   list-style: none;
 }
+
+.message {
+  width: 50%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.time {
+  border-bottom: 2px solid black;
+}

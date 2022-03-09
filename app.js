@@ -38,6 +38,7 @@ app.use(function (err, req, res, next) {
   res.render('error');
 });
 
+//used when hadn't used heroku local create
 // const port = 3000;
 // app.listen(port, () => {
 //   console.log(`Listening on port ${port}`);

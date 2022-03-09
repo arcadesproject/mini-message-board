@@ -8,10 +8,10 @@ block content
   ul
     each val in values
       div
-        li= val.user + ': ' + val.text 
-        li= val.added
+        li(class='message')= val.user + ': ' + val.text 
+        li(class='time')= 'Sent on: ' + val.added
     else
       li There are no values
   
   p 
-    a(href='/new') New
+    a(href='/new') New Message
